@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about{
+    display: flex;
+    gap: 40px;
+    padding: 30px 5%;
+}
+#about img{
+    height: 400px;
+    border-radius: 5px;
+}
+#about .text p:first-of-type{
+    color: green;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+#about.text p:last-of-type{
+    margin: 20px 0;
+}  
+#about .text button{
+    background-color: blue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#popular{
+    padding:20px 5% ;
+}
+#popular img{
+    height: 150px;
+    width: 100%;
+}
+#popular .container{
+    display: flex;
+    justify-content: space-between;
+}
+#popular h2{
+    text-align: center;
+}
+#popular .container div{
+    width: 31%;
+    background-color: aqua;
+}
+.container h3, p{
+    margin-top: 15px;
+    margin-left: 15px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: red;
+        }
+        form{
+            background-color: whitesmoke;
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            padding:30px 40px;
+        }
+        h4{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 800;
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 30px;
+        }
+        main div{
+            width: 48%;
+        }
+        label{
+            display: block;
+        }
+        input, textarea{
+            width: 100%;
+            padding: 10px ;
+
+        }
+        .full{
+            width: 100%;
+        }
+        #btn{
+            background-color: red;
+            color: whitesmoke;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h4>Student Registration Form</h4>
+        <main>
+            <div class="full">
+            <label for="">Student Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Mobile Number</label>
+            <input type="tel">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="">Father Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Mother Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Select course</label>
+            <select name="" id="">
+                <option value="Physics">Physics</option>
+                <option value="Microbiologist">Microbiologist</option>
+                <option value="Chemist">Chemist</option>
+                <option value="scientist">scientist</option>
+                <option value="Software engineering">Software engineering</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Date of Birth</label>
+            <input type="date">
+        </div>
+        <p>Gender</p>
+        <div>
+            <label for="">Female</label>
+            <input type="radio">
+            <label for="">Male</label>
+            <input type="radio">
+        </div>
+        <div>
+            <label for="">Student Photo</label>
+            <input type="file">
+        </div>
+        <div class="full">
+            <label for="">Address</label>
+            <textarea></textarea>
+        </div>
+        <div class="full">
+            <input type="submit" id="btn">
+        </div>
+        </main>
+    </form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        }
+        .a:hover{
+            background-color: black;
+            transition-property:background-color;
+            transition-duration:4s;
+        }
+        .b{
+            height: 100px;
+            width: 200px;
+            margin-top: 15px;
+            margin-left: 50px;
+            background-color: black;
+        }
+        .b:hover{
+            transform: scalex(1.7);
+            transition-property: transform;
+            transition-duration: 2s;
+        }
+        .c{
+            height: 100px;
+            width: 100px;
+            margin-top:50px;
+            background-color: yellow;
+            border-top: 7px solid black;
+        }
+      .c:hover{
+        transform: rotate(230deg);
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+      }
+      .d{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        margin-top: 20px;
+      }
+      .d:hover{
+        transform: scaleX(2);
+        transition: transform 2s 0s linear;
+      }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+            padding: 0%;
+        }
+        table{
+            width: 500px;
+            border: 1px solid red;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td,th{
+            border: 1px solid royalblue;
+            padding: 10px 0;
+        }
+        thead , tfoot{
+            background-color:green ;
+            color: wheat;
+        }
+        .one{
+            background-color: royalblue;
+            color: maroon;
+        }
+        .two{
+            background-color: brown;
+            color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="20%">
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="two">
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+            </tr>
+            <tr class="one">
+                <td>I</td>
+                <td>J</td>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+            <tr class="two">
+                <td>M</td>
+                <td>N</td>
+                <td>O</td>
+                <td>P</td>
+            </tr>
+            <tr class="one">
+                <td>Q</td>
+                <td>R</td>
+                <td>S</td>
+                <td>T</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>U</td>
+                <td>V</td>
+                <td>W</td>
+                <td>X</td>
+                </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
